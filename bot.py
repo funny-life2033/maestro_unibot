@@ -14,9 +14,9 @@ def send_welcome(message):
     bot.reply_to(message, "How are you doing?")
 
 
-@bot.message_handler(commands=["info"])
+@bot.message_handler(commands=["contact"])
 def send_welcome(message):
-    bot.reply_to(message, "I am software dev")
+    bot.reply_to(message, "https://t.me/dreamhighh2022")
 
 
 @bot.message_handler(func=lambda msg: True)
